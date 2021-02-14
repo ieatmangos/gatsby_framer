@@ -6,11 +6,11 @@ export function wrapPageElement({ element, props }) {
   return <Layout {...props}>{element}</Layout>
 }
 
-export function wrapRootElement({ element }) {
-  return (
-    <>
-      {/* Provider go here */}
-      {element}
-    </>
-  )
-}
+// export function wrapPageElement({ element }) {
+//   return (
+//     <>
+//       {/* Provider go here */}
+//       {element}
+//     </>
+//   )
+// }

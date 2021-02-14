@@ -12,6 +12,7 @@ const atoms = {
 };
 
 const extend = {
+ colors,
   animation: {
     fadeIn: 'fadeIn .4s forwards',
    },
@@ -32,7 +33,7 @@ const extend = {
 
 const gdsDesignSystem = {
   spacing,
-  colors,
+
   fontFamily,
   fontSize,
   boxShadow,
